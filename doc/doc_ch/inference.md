@@ -417,7 +417,7 @@ python3 tools/infer/predict_system.py --image_dir="./doc/imgs_en/img_10.jpg" --d
 |  save_crop_res | bool | False  | 是否保存OCR的识别文本图像 |
 |  crop_res_save_dir | str | "./output" | 保存OCR识别出来的文本图像路径 |
 |  use_mp | bool | False | 是否开启多进程预测  |
-|  total_process_num | int | 6 | 开启的进城数，`use_mp`为`True`时生效  |
+|  total_process_num | int | 6 | 开启的进程数，`use_mp`为`True`时生效  |
 |  process_id | int | 0 | 当前进程的id号，无需自己修改  |
 |  benchmark | bool | False | 是否开启benchmark，对预测速度、显存占用等进行统计  |
 |  save_log_path | str | "./log_output/" | 开启`benchmark`时，日志结果的保存文件夹 |
